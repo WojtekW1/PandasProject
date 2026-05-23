@@ -1,0 +1,16 @@
+@"
+# Dane źródłowe - za duże do repo
+data/
+
+# Środowisko wirtualne
+venv_analiza_powietrza/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# System
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
